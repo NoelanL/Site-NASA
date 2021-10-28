@@ -96,24 +96,190 @@ main
     background-color: white;
     height: 30px;
     width: 100%;
-    top: 410px;
+    top: 560px;
 }
 
 #first-img
 {
+    margin-left: 20px;
     display: inline-block;
-    height: 450px;
-    width: 50%;
+    height: 600px;
+    width: 600px;
     background-image: url("/asset/img/ressuply-ship.jfif");
     background-size: cover;
 }
 
+#para2 > p
+{
+    color: black;
+    position: relative;
+    background-color: white;
+    height: 40px;
+    width: 100%;
+    top: 245px;
+}
+
 #second-img
 {
+    margin-left: 20px;
     position: absolute;
     display: inline-block;
-    height: 215px;
-    width: 25%;
+    height: 300px;
+    width: 400px;
     background-image: url("/asset/img/comercial-crew.jfif");
     background-size: cover;
+}
+
+#third-img
+{
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-size: 12px;
+    height: 300px;
+    width: 400px;
+    padding-left: 10px;
+    margin-left: 20px;
+    background-color: #39719e;
+    bottom: 600px;
+    left: 1040px;
+}
+
+#para3
+{
+    background-color: white;
+    position: relative;
+    height: 30px;
+    width: 100%;
+    top: 238px;
+}
+
+#quatre-img
+{
+    background-image: url("/asset/img/Astrology.jfif");
+    display: inline-block;
+    position: relative;
+    background-size: cover;
+    width: 830px;
+    left: 640px;
+    height: 285px;
+    bottom: 600px;
+}
+
+#cinq-img
+{
+    position: relative;
+    display: inline-block;
+    background-size: cover;
+    background-image: url("/asset/img/ozone.jfif");
+    height: 285px;
+    width: 400px;
+    right: 43%;
+    bottom: 280px;
+}
+
+#para4
+{
+    position: relative;
+    background-color: white;
+    top: 232px;
+}
+
+#six-img
+{
+    display: inline-block;
+    background-image: url("/asset/img/station-cold.jfif");
+    background-size: cover;
+    width: 830px;
+    position: relative;
+    height: 285px;
+    left: 430px;
+    bottom: 583px;
+}
+
+#sept-img
+{
+    display: inline-block;
+    background-image: url("/asset/img/image-of-the-day.jfif");
+    background-size: cover;
+    width: 350px;
+    height: 285px;
+    position: relative;
+    bottom: 837px;
+    left: 280px;
+}
+
+#para5
+{
+    position: relative;
+    background-color: white;
+    top: 250px;
+}
+
+#last-div
+{
+    display: inline-block;
+    position: relative;
+    bottom: 840px;
+    margin-left: 20px;
+}
+
+#huit-img
+{
+    display: inline-block;
+    background-image: url("/asset/img/virtual-web.jfif");
+    background-size: cover;
+    width: 350px;
+    height: 285px;
+}
+
+#neuf-img
+{
+    display: inline-block;
+    background-image: url("/asset/img/nomination-national.jfif");
+    background-size: cover;
+    margin-left: 10px;
+    width: 350px;
+    height: 285px;
+}
+
+#dix-img
+{
+    display: inline-block;
+    background-image: url("/asset/img/black-holes.jfif");
+    background-size: cover;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 350px;
+    height: 285px;
+}
+
+#onze-img
+{
+    display: inline-block;
+    background-image: url("/asset/img/raise.jfif");
+    background-size: cover;
+    width: 350px;
+    margin-left: 10px;
+    height: 285px;
+}
+
+.last-para
+{
+    background-color: white;
+    position: relative;
+    top: 232px;
+}
+
+#footer
+{
+    background-color: #15418c;
+    margin-left: 15px;
+    text-align: center;
+    color: white;
+    padding: 1px;
+    font-weight: bold;
+    position: relative;
+    bottom: 820px;
+    width: 1440px;
 }

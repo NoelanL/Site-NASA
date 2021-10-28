@@ -1,0 +1,119 @@
+body
+{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+header
+{
+    background-image: url("/asset/img/etoile.jfif");
+    color: white;
+    height: 120px;
+}
+
+#top-menu
+{
+    display: inline-block;
+    position: absolute;
+    left: 10%;
+}
+
+.menu-top
+{
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px 15px 10px 15px;
+    border-right: 2px solid lightslategrey;
+}
+
+#bottom-menu
+{
+    display: inline-block;
+    background-color: #565555;
+    margin-left: 10%;
+    position: relative;
+    bottom: 50px;
+}
+
+.menu-bottom
+{
+    display: inline;
+    list-style: none;
+    color: white;
+    position: relative;
+    padding: 0 15px 0 10px;
+    border-right: 1px solid white;
+    font-size: 14px;
+    right: 25px;
+}
+
+.search
+{
+    width: 125px;
+    background-color: #333;
+    padding: 10px 0 10px 0;
+    position: relative;
+    left: 1075px;
+    bottom: 70px;
+}
+
+.fa-search
+{
+    float: right;
+}
+
+.fa-share-alt
+{
+    position: relative;
+    bottom: 100px;
+    float: right;
+    font-size: 24px;
+    right: 40px;
+}
+
+main
+{
+    margin: 10px 0 0 0;
+}
+
+#top-body
+{
+    margin-top: 30px;
+}
+
+#ressuply
+{
+    width: 50%;
+    height: 600px;
+}
+
+#para1
+{
+    color: black;
+    position: relative;
+    background-color: white;
+    height: 30px;
+    width: 100%;
+    top: 410px;
+}
+
+#first-img
+{
+    display: inline-block;
+    height: 450px;
+    width: 50%;
+    background-image: url("/asset/img/ressuply-ship.jfif");
+    background-size: cover;
+}
+
+#second-img
+{
+    position: absolute;
+    display: inline-block;
+    height: 215px;
+    width: 25%;
+    background-image: url("/asset/img/comercial-crew.jfif");
+    background-size: cover;
+}
